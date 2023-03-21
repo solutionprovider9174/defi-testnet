@@ -1,0 +1,29 @@
+.contractDetailsMainWrapper {
+    padding: 1rem 2rem;
+}
+
+.contractDetailEditorContainer {
+    display: inline-block;
+    width: 100%;
+    height: 10rem;
+    overflow-y: auto;
+}
+
+.contractDetailEditorContainer1 {
+    display: inline-block;
+    width: 100%;
+    height: max-content;
+}
+
+.contractDetailsIconContainer {
+    float: right;
+    cursor: pointer;
+}
+
+.contractDetailsCopyIcon {
+    padding: 8px;
+}
+
+.contractDetailsSingleItemWrapper {
+    padding-top: 10px;
+}

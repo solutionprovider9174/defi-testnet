@@ -1,0 +1,42 @@
+.statsContainer {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    padding: 2rem 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.statsSingleContainer {
+    display: inline-block;
+    padding: 0px 1rem;
+    color: white;
+}
+
+.statsSingleHeading {
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-right: 0.5rem;
+}
+
+.statsSingleHeadingValue {
+    font-size: 1.2rem;
+    display: inline-block;
+    padding-right: 0.2rem;
+}
+
+.statsSingleHeadingValueChange {
+    font-size: 0.8rem;
+    display: inline-block;
+    color: red;
+}
+
+.statsSingleHeadingValueChange2 {
+    font-size: 0.8rem;
+    display: inline-block;
+    color: #77838f;
+}

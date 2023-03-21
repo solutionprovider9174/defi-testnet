@@ -1,0 +1,179 @@
+.footerContainer {
+    height: max-content;
+    background: black;
+    color: white;
+}
+
+.footerContainerWrapper {
+    padding: 1rem 1.5rem;
+}
+
+.footerMainTextContainer {
+    display: flex;
+    justify-content: space-between;
+    flex: row;
+    align-items: flex-start;
+    color: white;
+}
+
+.footerMainExplorerContainer {
+    display: inline-block;
+    padding: 0px 1rem;
+    cursor: pointer;
+}
+
+.footerMainExplorerText {
+    color: white;
+    height: max-content;
+    display: inline-block;
+}
+
+.footerMainAboutText {
+    font-size: 1rem;
+    color: white;
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+.footerNameLogoContainer {
+    display: flex;
+    justify-content: space-between;
+    flex: row;
+    align-items: center;
+    padding: 0rem 1.5rem;
+}
+
+.footerNameContainer {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.footerNameText {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.footerLogoContainer {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.footerSocialMediaContainer {
+    color: white;
+    padding-left: 1rem;
+    display: inline-block;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.logoFooter {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.footerImg {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.footerMainDataContainer {
+    padding: 0.5rem;
+}
+
+.footerMainDataHeadingContainer {
+    padding-bottom: 0.5rem;
+}
+
+.footerMainDataHeadingText {
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.footerMainDataValuesContainer {
+    padding-bottom: 6px;
+}
+
+.footerMainDataValuesText {
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.whiteColor {
+    color: white;
+    margin: 0.5rem 0;
+}
+
+.footerMusaText {
+    color: white;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 0.6rem;
+}
+
+.footerAText {
+    color: white;
+    text-decoration: none;
+}
+
+.footerAText:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footerCopyrightTextContainer {
+    text-align: center;
+    padding: 8px;
+    background: linear-gradient(315deg, rgba(16, 167, 182, 0.81) 0%, rgba(172, 131, 169, 0.87) 48.44%, rgba(230, 102, 96, 0.74) 100%);
+}
+
+.footerMetamaskWrapper {
+    margin: 1rem 0;
+    height: 3rem;
+}
+
+.footerMetamaskContainer {
+    padding: 0.5rem;
+    border-radius: 5px;
+    background: rgba(0,25,64,.25);
+    border: 1px solid hsla(0,0%,100%,.2);
+    float: right;
+    cursor: pointer;
+}
+
+.footerMetamaskIconWrapper {
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    margin: 0 0.5rem;
+}
+
+.footerMetamaskIcon {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .footerMainTextContainer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footerMetamaskWrapper {
+        text-align: center;
+        height: max-content;
+    }
+
+    .footerMetamaskContainer {
+        float:none;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .footerNameContainer {
+        height: 50%;
+        width: 50%;
+    }
+}

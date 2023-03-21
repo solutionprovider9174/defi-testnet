@@ -1,0 +1,30 @@
+.blockTransactionContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba( 0, 0, 0, 1);
+    margin: auto;
+    min-height: calc(100vh - 10rem);
+    padding: 3rem 0;
+    justify-content: space-between;
+}
+
+.blockTxnMgn {
+    display: inline-block;
+    border-radius: 25px;
+    width: 45%;
+    margin: 0 2%;
+    padding: 1rem;
+    background: rgba(0,25,64,.25);
+    border: 1px solid hsla(0,0%,100%,.2);
+}
+
+@media screen and (max-width: 1000px) {
+    .blockTransactionContainer {
+        flex-direction: column;
+    }
+
+    .blockTxnMgn {
+        width: 90%;
+        margin: 2%;
+    }
+}

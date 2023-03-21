@@ -1,0 +1,381 @@
+.cblockDataWrapper {
+    margin: auto;
+    min-height: calc(100vh - 10rem);
+    background-color: black;
+}
+
+.contractDMainWrapper {
+    padding: 1.5rem 0;
+    background-color: black;
+}
+
+.blockDataContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: max-content;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.border {
+    border-top: 1px solid white;
+}
+
+.blockDataMainContainer {
+    display: inline-block;
+    color: white;
+    padding: 1.5rem;
+    min-height: 35rem;
+    width: 100%;
+}
+
+.blockNoContainer {
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.blockNoText {
+    font-size: 2rem;
+    font-weight: 500;
+    color: transparent;
+    background-image: linear-gradient(315deg, rgba(16, 167, 182, 0.81) 0%, rgba(172, 131, 169, 0.87) 48.44%, rgba(230, 102, 96, 0.74) 100%);
+    background-clip: text;
+}
+
+.blockNoValue {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.blockDetailsContainer {
+    background: rgba(0,25,64,.25);
+    border: 1px solid hsla(0,0%,100%,.2);
+    padding: 1rem;
+    border-radius: 25px;
+    width: 70%;
+}
+
+.blockDetailKeyContainer {
+    padding-left: 1rem;
+    width: 30%;
+}
+
+.blockDetailKeyText {
+    font-size: 1rem;
+}
+
+.blockDetailValueContainer {
+    padding-right: 1rem;
+    width: calc(70%);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.blockDetailValueText {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.loadingText {
+    display: flex;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.contractDetailsMainVerifyForm {
+    text-align: left;
+    padding-top: 1rem;
+}
+
+.contractDetailsVerifyTextContainer {
+    padding-bottom: 1rem;
+}
+
+.contractDetailsVerifyText {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.contractDetailsInputContainer {
+    margin-top: 0.8rem;
+    padding-bottom: 0.7rem;
+}
+
+.contractDetailsInputText {
+    font-weight: 400;
+    padding-bottom: 0.4rem;
+}
+
+.contractDetailsVerifyText2 {
+    font-weight: bold;
+    cursor: pointer;
+    background: rgba(0,25,64,.25);
+    border: 1px solid hsla(0,0%,100%,.2);
+    border-radius: 7px;
+    padding: 8px;
+}
+
+.contractDetailsVerifyText1 {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(0,25,64,.25);
+    border: 1px solid hsla(0,0%,100%,.2);
+    border-radius: 7px;
+    padding: 8px;
+}
+
+.contractDetailsInputClass {
+    width: 70%;
+    outline: none;
+    padding: 4px;
+}
+
+.contractMenuOptionsContainer {
+    padding-top: 1rem;
+    text-align: left;
+}
+
+.contractMenuOptions {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0 0.5rem;
+    font-weight: 500;
+    border-bottom: 1.5px solid gray;
+    cursor: pointer;
+}
+
+.contractMenuOptions1 {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0 0.5rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .blockDataContainer {
+        flex-direction: column;
+    }
+
+    .blockDetailKeyContainer {
+        width: 100%;
+    }
+
+    .blockDetailValueContainer {
+        width: 100%;
+    }
+
+    .blockDetailsContainer {
+        text-align: initial;
+    }
+
+    .blockDetailKeyContainer {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .blockDataMainContainer {
+        display: block;
+    }
+}
+
+.blockDataWrapper {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.allBlocksDetailsContainer {
+    border-radius: 25px;
+    margin-top: 1rem;
+    color: white;
+    padding: 1.5rem;
+    background-color: rgba( 255, 255, 255, 0.8);
+    background: rgba(0,25,64,.25);
+    border: 1px solid hsla(0,0%,100%,.2);
+}
+
+.contractVeriText {
+    font-weight: 400;
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+
+.blocksTextContainer {
+    padding: 1rem 2rem;
+}
+
+.blockTextValue {
+    font-size: 2rem;
+    font-weight: bold;
+    color: transparent;
+    background-image: linear-gradient(315deg, rgba(16, 167, 182, 0.81) 0%, rgba(172, 131, 169, 0.87) 48.44%, rgba(230, 102, 96, 0.74) 100%);
+    background-clip: text;
+}
+
+.tableContainer {
+    border: 1px solid black;
+    padding: 4px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.tableHeadingContainer {
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    color: rgba( 255, 255, 255, 0.8);
+    text-align: center;
+}
+
+.majorDataText {
+    display: inline-block;
+    min-width: 12rem;
+    width: calc(23%);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 0 4px;
+}
+
+.minorDataText {
+    display: inline-block;
+    min-width: 12rem;
+    width: calc(7%);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 0 4px;
+}
+
+
+
+.textDetailsContainer {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5rem;
+    display: block;
+    color: white;
+}
+
+.textDetailsContainer:hover {
+    color: rgba( 255, 255, 255, 0.5);
+    width: 100%;
+    font-weight: 500;
+}
+
+
+.loadingText {
+    display: flex;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.blocksPaginationContainer {
+    margin: 1rem 0;
+    min-height: 8px;
+}
+
+.blocksPrevContainer {
+    padding: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.blocksPrevContainerLight {
+    padding: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+
+.blocksPrevContainerValue {
+    padding: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.blocksPaginationRecordsContainer {
+    float: left;
+}
+
+.blocksShowText {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.blocksRecordsWrapper {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.blocksSelectRecordsWrapper {
+    background: rgba( 255, 255, 255, 0.8);
+}
+
+.blocksPaginationWrapperIconValue{
+    float: right;
+}
+
+/* @media screen and (max-width: 1550px) {
+    .majorDataText {
+        width: 14rem;
+    }
+
+    .minorDataText {
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .majorDataText {
+        width: 12rem;
+    }
+
+    .minorDataText {
+        width: 10rem;
+    }
+} */
+
+@media screen and (max-width: 550px) {
+    .blockDetailsContainer {
+        width: 90%;
+    }
+
+    .contractDetailsInputClass {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .blocksPaginationContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;
+    }
+
+    .blocksPaginationRecordsContainer {
+        margin-bottom: 10px;
+    }
+}

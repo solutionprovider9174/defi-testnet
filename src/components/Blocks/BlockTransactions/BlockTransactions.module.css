@@ -1,0 +1,102 @@
+.blockDataWrapper {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.allBlocksDetailsContainer {
+    color: black;
+    padding: 1.5rem;
+    background-color: rgba( 255, 255, 255, 0.8);
+}
+
+.blocksTextContainer {
+    padding: 1rem 2rem;
+}
+
+.blockTextValue {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.tableContainer {
+    border: 1px solid black;
+    padding: 4px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.tableHeadingContainer {
+    display: block;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.majorDataText {
+    display: inline-block;
+    min-width: 12rem;
+    width: calc(23%);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 0 4px;
+}
+
+.minorDataText {
+    display: inline-block;
+    min-width: 12rem;
+    width: calc(7%);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 0 4px;
+}
+
+
+
+.textDetailsContainer {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5rem;
+    display: block;
+    color: black;
+}
+
+.textDetailsContainer:hover {
+    color: rgba( 0, 0, 0, 0.5);
+    width: 100%;
+    font-weight: 500;
+}
+
+
+.loadingText {
+    display: flex;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+
+/* @media screen and (max-width: 1550px) {
+    .majorDataText {
+        width: 14rem;
+    }
+
+    .minorDataText {
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .majorDataText {
+        width: 12rem;
+    }
+
+    .minorDataText {
+        width: 10rem;
+    }
+} */

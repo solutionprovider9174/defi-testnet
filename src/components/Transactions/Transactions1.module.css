@@ -1,0 +1,170 @@
+.blockDataWrapper {
+    text-align: center;
+    background-color: black;
+}
+
+.allBlocksDetailsContainer {
+    color: white;
+    padding: 1.5rem;
+    background-color: black;
+}
+
+.blocksTextContainer {
+    padding: 1rem 2rem;
+}
+
+.blockTextValue {
+    font-size: 2rem;
+    font-weight: bold;
+    color: transparent;
+    background-image: linear-gradient(315deg, rgba(16, 167, 182, 0.81) 0%, rgba(172, 131, 169, 0.87) 48.44%, rgba(230, 102, 96, 0.74) 100%);
+    background-clip: text;
+}
+
+.tableContainer {
+    background: rgba(0,25,64,.25);
+    border: 1px solid hsla(0,0%,100%,.2);
+    padding: 16px;
+    overflow-x: auto;
+    white-space: nowrap;
+    border-radius: 25px;
+}
+
+.tableHeadingContainer {
+    display: block;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.majorDataText {
+    display: inline-block;
+    min-width: 12rem;
+    width: calc(23%);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 0 4px;
+}
+
+.minorDataText {
+    display: inline-block;
+    min-width: 12rem;
+    width: calc(7%);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 0 4px;
+}
+
+
+
+.textDetailsContainer {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5rem;
+    display: block;
+    color: white;
+}
+
+.textDetailsContainer:hover {
+    color: rgba( 255, 255, 255, 0.5);
+    width: 100%;
+    font-weight: 500;
+}
+
+
+.loadingText {
+    display: flex;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.blocksPaginationContainer {
+    margin: 1rem 0;
+    min-height: 8px;
+}
+
+.blocksPrevContainer {
+    padding: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.blocksPrevContainerLight {
+    padding: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+
+.blocksPrevContainerValue {
+    padding: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.blocksPaginationRecordsContainer {
+    float: left;
+}
+
+.blocksShowText {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.blocksRecordsWrapper {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.blocksSelectRecordsWrapper {
+    background: rgba( 255, 255, 255, 0.8);
+}
+
+.blocksPaginationWrapperIconValue{
+    float: right;
+}
+
+
+/* @media screen and (max-width: 1550px) {
+    .majorDataText {
+        width: 14rem;
+    }
+
+    .minorDataText {
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .majorDataText {
+        width: 12rem;
+    }
+
+    .minorDataText {
+        width: 10rem;
+    }
+} */
+
+@media screen and (max-width: 400px) {
+    .blocksPaginationContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;
+    }
+
+    .blocksPaginationRecordsContainer {
+        margin-bottom: 10px;
+    }
+}

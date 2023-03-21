@@ -1,0 +1,72 @@
+.transactionsWrapper {
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.allTxnsDetailsContainer {
+    width: 80%;
+    display: inline-block;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: white;
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+.txnTextContainer {
+    padding: 1rem 2rem;
+}
+
+.txnTextValue {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.tableContainer {
+    width: 100%;
+    border: 1px solid white;
+    padding: 4px;
+}
+
+.tableHeadingContainer {
+    width: 100%;
+    text-align: center;
+
+}
+
+.majorDataText {
+    display: inline-block;
+    min-width: 0;
+    width: calc(20%);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    color: white;
+}
+
+.minorDataText {
+    display: inline-block;
+    min-width: 0;
+    width: calc(9%);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+.textDetailsContainer {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5rem;
+    display: inline-block;
+}
+
+.textDetailsContainer:hover{
+    color: rgba(0, 0, 0, 0.7);
+    background-color: white !important;
+}

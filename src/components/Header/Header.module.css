@@ -1,0 +1,121 @@
+.headerAllWrapper {
+    height: max-content;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+.headerNavDetailsContainer {
+    padding-top: 0.8rem;
+    text-align: center;
+}
+
+.headerNavText {
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.headerContainer {
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.headerImg {
+    height: 100%;
+    width: 100%;
+}
+
+.headerText {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.headerNavOptionsContainer {
+    display: inline-block;
+}
+
+.headerNavOption {
+    display: inline-block;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.headerDropDownContainer {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.headerDropDownContainer option {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.headerDropDownContainer:hover {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: black;
+}
+
+.headerDropDownValue {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.headerDropDwnAText {
+    color: black;
+    text-decoration: none;
+}
+
+.headerDropDwnAText2 {
+    color: white;
+    text-decoration: none;
+}
+
+.headerDropDwnAText2:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.headerDropDwnAContainer {
+    padding-left: 6px;
+}
+
+.headerHamContainer {
+    display: none;
+}
+
+@media screen and ( max-width: 600px){
+    .headerHamContainer {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .headerNavOptionsContainer {
+        display: none;
+    }
+}
+
+@media screen and ( max-width: 400px) {
+    .headerImg {
+        width: 50%;
+        height: 50%;
+    }
+}

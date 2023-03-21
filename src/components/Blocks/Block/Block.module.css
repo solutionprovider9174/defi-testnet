@@ -1,0 +1,115 @@
+.blockDataWrapper {
+    margin: auto;
+    min-height: calc(100vh - 10rem);
+    background-color: black;
+}
+
+.blockMainParentWrapper {
+    padding-top: 1rem;
+    background-color: black;
+}
+
+.blockDetailsContainer {
+    padding: 1rem;
+    background: rgba(0,25,64,.25);
+    border: 1px solid hsla(0,0%,100%,.2);
+    border-radius: 25px;
+}
+
+.blockDataContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: max-content;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.border {
+    border-top: 1px solid white;
+}
+
+.blockDataMainContainer {
+    color: white;
+    padding: 1.5rem;
+    min-height: 35rem;
+}
+
+.blockNoContainer {
+    padding: 1rem;
+    color: transparent;
+    background-image: linear-gradient(315deg, rgba(16, 167, 182, 0.81) 0%, rgba(172, 131, 169, 0.87) 48.44%, rgba(230, 102, 96, 0.74) 100%);
+    background-clip: text;
+}
+
+.blockNoText {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.blockNoValue {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+
+.blockDetailKeyContainer {
+    padding-left: 1rem;
+    width: 30%;
+}
+
+.blockDetailKeyText {
+    font-size: 1rem;
+}
+
+.blockDetailValueContainer {
+    padding-right: 1rem;
+    width: calc(70%);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.blockDetailValueText {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.loadingText {
+    display: flex;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .blockDataContainer {
+        flex-direction: column;
+    }
+
+    .blockDetailKeyContainer {
+        width: 100%;
+        padding: 0;
+    }
+
+    .blockDetailValueContainer {
+        width: 100%;
+    }
+
+    .blockDetailsContainer {
+        text-align: initial;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .blockDataMainContainer {
+        display: block;
+    }
+}

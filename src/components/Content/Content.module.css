@@ -1,0 +1,78 @@
+.contentContainer {
+    background-color: rgba( 0, 0, 0, 1);
+    padding: 0px 2rem;
+}
+
+.contentHeadingContainer {
+    padding-top: 70px;
+}
+
+.contentHeadingText {
+    color: transparent;
+    background-image: linear-gradient(315deg, rgba(16, 167, 182, 0.81) 0%, rgba(172, 131, 169, 0.87) 48.44%, rgba(230, 102, 96, 0.74) 100%);
+    background-clip: text;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.inputContainer {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+}
+
+.inputFieldContainer {
+    display: inline-block;
+    width: 60%;
+
+}
+
+.inputField {
+    height: 40px;
+    width: 100% !important;
+    border: 1px solid #10A8B6;
+    outline: none !important;
+    padding: 4px !important;
+    border-radius: 5px;
+}
+
+.inputField:active, .inputField:focus {
+    outline: none;
+}
+
+.inputSearchText {
+    display: inline-block;
+    background: black;
+    border: 1px solid hsla(0,0%,100%,.2);
+    padding: 6px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 700px) {
+
+    .inputContainer {
+        padding-left: 0px;
+    }
+
+    .inputFieldContainer {
+        display: block;
+        width: 80%;
+    }
+
+    .inputSearchText {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .inputFieldContainer {
+        width: 100%;
+    }
+}

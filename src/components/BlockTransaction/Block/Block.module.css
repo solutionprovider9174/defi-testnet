@@ -1,0 +1,208 @@
+.blockContainer {
+    display: block;
+    width: 100%;
+    padding: 0px 0.5rem;
+}
+
+.latestBlockContainer {
+    padding: 1rem 0.8rem;
+}
+
+.latestBlockText {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: transparent;
+    background-image: linear-gradient(315deg, rgba(16, 167, 182, 0.81) 0%, rgba(172, 131, 169, 0.87) 48.44%, rgba(230, 102, 96, 0.74) 100%);
+    background-clip: text;
+}
+
+.border {
+    border-top: 1px solid white;
+}
+
+.blockDataBkText {
+    padding: 1rem;
+    display: inline-block;
+    color: white;
+    background-color: rgba(119, 131, 143, 0.1) !important;
+}
+
+.blockDataNoTimeContainer {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+}
+
+.blockDataNoText {
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.blockDataNoText:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.blockDataTimeText {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.blockDataContainer {
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.blockTxnDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.blockTxnRecipientName {
+    display: inline-block;
+    min-width: 0;
+    max-width: calc(100%);
+    padding-bottom: 0.5rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+}
+
+.blockTxnRecipientNameText {
+    color: white;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+}
+
+.blockTxnRecipientNameValue {
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.blockTxnRecipientNameValue:hover {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+
+/* .blockTxnRecipientNameValue .tooltp {
+    visibility: hidden;
+    color: white;
+    background: black;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.blockTxnRecipientNameValue:hover .tooltp {
+    visibility: visible;
+} */
+
+.blockTxnCountValue {
+    color: white;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+    cursor: pointer;
+}
+
+.blockTxnCountValue:hover {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+
+.blockTxnTimeValue {
+    font-size: 0.8rem;
+    color: #77838f;
+    cursor: pointer;
+}
+
+.blockTxnTimeValue:hover {
+    color: lightblue;
+}
+
+.blockTxnValueContainer {
+    padding: 1rem;
+    color: #77838f;
+    background-color: rgba(119,131,143,.1) !important;
+    border-radius: 10px;
+}
+
+.blockViewContainer {
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    background: rgba(52,152,219,.1) !important;
+    text-align: center;
+    cursor: pointer;
+    color: #3498db;
+}
+
+.blockViewText {
+    font-size: 1rem;
+}
+
+.blockViewContainer:hover {
+    background: linear-gradient(270deg, rgba(16, 167, 182, 0.548515) 0%, #10A7B6 0%, #AC83A9 50%, #E66660 100%) !important;
+    color: black;
+}
+
+.loadingText {
+    display: flex;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.tooltp {
+    visibility: hidden;
+    color: white;
+    background: blackz;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .blockDataContainer {
+        flex-direction: column;
+    }
+
+    .blockDataNoTimeContainer {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .blockTxnDetailsContainer {
+        width: 100%;
+        padding: 0 0.5rem;
+        padding-bottom: 0.5rem;
+
+    }
+
+    .blockTxnValueContainer {
+        padding: 0 0.5rem;
+        display: inline;
+    }
+
+    .blockTxnRecipientName {
+        padding-bottom: 0;
+    }
+
+    /* .blockTxnValueContainerText {
+        padding: 0.5rem;
+        color: #77838f;
+        background-color: rgba(119,131,143,.1) !important;
+        border-radius: 10px;
+    } */
+
+}

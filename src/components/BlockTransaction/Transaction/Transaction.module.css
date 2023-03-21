@@ -1,0 +1,146 @@
+.transactionContainer {
+    display: block;
+    width: 100%;
+    padding: 0px 0.5rem;
+}
+
+.latestTransactionContainer {
+    padding: 1rem 0.8rem;
+}
+
+.latestTransactionText {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: transparent;
+    background-image: linear-gradient(315deg, rgba(16, 167, 182, 0.81) 0%, rgba(172, 131, 169, 0.87) 48.44%, rgba(230, 102, 96, 0.74) 100%);
+    background-clip: text;
+}
+
+.border {
+    border-top: 1px solid white;
+}
+
+.transactionDataContainer {
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.txnDataNoTimeContainer {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    width: calc(30%);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    color: white;
+    padding-right: 8px;
+}
+
+.txnDataNoText {
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.txnDataNoText:hover {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+
+.txnkDataTimeText {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.txnValueTextContainer {
+    padding: 1rem;
+    color: #77838f;
+    background-color: rgba(119,131,143,.1) !important;
+    border-radius: 10px;
+}
+
+.txnTxnDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    width: calc(30%);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+    padding: 0 8px;
+}
+
+.txnTxnRecipientName {
+    padding-bottom: 0.5rem;
+}
+
+.txnTxnRecipientNameText {
+    color: white;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+}
+
+.txnTxnRecipientNameValue {
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.txnTxnRecipientNameValue:hover {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+
+.txnTxnCountValue {
+    color: white;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+}
+
+.txnTxnTimeValue {
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.txnTxnTimeValue:hover {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+
+.txnsViewContainer {
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    background: rgba(52,152,219,.1) !important;
+    text-align: center;
+    cursor: pointer;
+    color: #3498db;
+}
+
+.txnsViewText {
+    font-size: 1rem;
+}
+
+.txnsViewContainer:hover {
+    background: linear-gradient(270deg, rgba(16, 167, 182, 0.548515) 0%, #10A7B6 0%, #AC83A9 50%, #E66660 100%) !important;
+    color: black;
+}
+
+.loadingText {
+    display: flex;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
